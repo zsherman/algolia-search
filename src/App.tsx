@@ -80,7 +80,9 @@ const Result = ({ hit, components }) => {
           {hit.content && (
             <components.Highlight hit={hit} attribute="content" />
           )}
-          {!hit.content && hit.itemUrl}
+          {!hit.content && (
+            <span style={{ wordBreak: 'break-word' }}>{hit.itemUrl}</span>
+          )}
         </p>
       </div>
     </>
