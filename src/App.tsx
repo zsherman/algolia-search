@@ -10,7 +10,7 @@ import { createElement, Fragment, useEffect, useRef } from 'react'
 import { render } from 'react-dom'
 import algoliasearch from 'algoliasearch'
 import { autocomplete, getAlgoliaResults } from '@algolia/autocomplete-js'
-import '@algolia/autocomplete-theme-classic'
+// import '@algolia/autocomplete-theme-classic'
 import './App.css'
 
 const appId = 'EOIG7V0A2O'
